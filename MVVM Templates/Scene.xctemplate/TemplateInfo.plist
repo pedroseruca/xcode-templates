@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+    <key>Nodes</key>
+    <array>
+        <string>Test/File.swift</string>
+    </array>
+    <key>Definitions</key>
+    <dict>
+        <key>Test/File.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>Test</string>
+            </array>
+            <key>Path</key>
+            <string>File.swift</string>
+            
+        </dict>
+    </dict>
+    
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Scene name: </string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>ViewModel</string>
+		</dict>
+        <dict>
+            <key>Identifier</key>
+            <string>generateXIBfile_</string>
+            <key>Name</key>
+            <string>Also create a XIB file</string>
+            <key>Type</key>
+            <string>checkbox</string>
+        </dict>
+        <dict>
+            <key>Identifier</key>
+            <string>localizable</string>
+            <key>Name</key>
+            <string>Add Localizable structs</string>
+            <key>Type</key>
+            <string>checkbox</string>
+        </dict>
+	</array>
+</dict>
+</plist>
