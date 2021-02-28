@@ -1,11 +1,10 @@
-
 import InSeasonUIKit
 
 final class ___FILEBASENAMEASIDENTIFIER___: BaseCollectionViewCell, XIBLoadable {
     // MARK: - Outlets
 
     // MARK: - Private Properties
-    
+
     private var viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModelProtocol? {
         didSet {
             

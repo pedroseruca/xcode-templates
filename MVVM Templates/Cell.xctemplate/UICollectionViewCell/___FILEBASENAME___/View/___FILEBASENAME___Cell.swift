@@ -1,7 +1,8 @@
-
 import InSeasonUIKit
 
 final class ___FILEBASENAMEASIDENTIFIER___: BaseCollectionViewCell {
+    // MARK: - Outlets
+    
     // MARK: - Private Properties
     
     private var viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModelProtocol? {
@@ -14,7 +15,6 @@ final class ___FILEBASENAMEASIDENTIFIER___: BaseCollectionViewCell {
     
     override func prepareForReuse() {
         super.prepareForReuse()
-
     }
     
     // MARK: - Public Methods
