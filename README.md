@@ -1,12 +1,22 @@
 # xcode-templates
-A Repo with custom templates for when you add a new file
+
+A Repo with custom templates for Xcode
+
+## What are Templates?
+
+When you create a new file on Xcode you are used to see some kind of dialog window requiring the name for the file and you might even find some options on it.
+That is a Template already provided by Xcode. But nothing stops you to add you owns for your convenience. 
 
 ## What could bring to project?
 
-Actually, when you create a new file on Xcode you are already using Templates, but the default ones provided by Xcode. So you already know how to use it and what could bring to your project.
+Every project gets to a state where you find yourslef asking if there isn't a way to reduce the boilerplate that you have been accumulating over the time.
+It could be a BaseViewController, a consistent way of making a view, or just rules that define Marks. All of this dance of ⌘C and ⌘V could be avoided by creating simple, yet not bindable, templates that help you speed up the process.
 
-Custom templates are just like standard templates but you can make them and personalise at your will. 
+## What will you find here?
 
+This Repo will have examples for the project I current work, so don't expect them to work on yours. What you can take from here is workable examples (believe or not are hard to find), and explanations how to make yours. 
+
+You will have to know nothing apart of basic Swift / iOS knowledge.
 
 ## Steps:
 
