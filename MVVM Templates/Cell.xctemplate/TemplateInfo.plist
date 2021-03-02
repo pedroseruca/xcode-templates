@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Cell Name: </string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>ViewModel</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>subclass</string>
+			<key>Name</key>
+			<string>Subclass of: </string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>UITableViewCell</string>
+			<key>Values</key>
+			<array>
+				<string>UITableViewCell</string>
+				<string>UICollectionViewCell</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>generateXIBfile</string>
+			<key>Name</key>
+			<string>Also create a XIB file</string>
+			<key>Type</key>
+			<string>checkbox</string>
+		</dict>
+	</array>
+	<key>Definitions</key>
+    <dict>
+        <key>Cell.swift</key>
+        <dict>
+            <key>Path</key>
+            <string>Cell.swift</string>
+            <key>Group</key>
+            <array>
+                <string>productName</string>
+                <string>View</string>
+            </array>
+        </dict>
+    </dict>
+    <key>Nodes</key>
+    <array>
+        <string>Cell.swift</string>
+    </array>
+</dict>
+</plist>
