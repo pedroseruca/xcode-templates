@@ -26,7 +26,7 @@ To start using the Templates just follow the steps [here](https://github.com/ped
 
 Let's be honest, my Templates don't have any value to you, and that's ok. Templates will be usefull when you work for sometime in the same project, and most of it, is not reusable on other projects.
 
-So the [How to do it](https://github.com/pedroseruca/xcode-templates/blob/main/Documentation/INSTALLATION.md) is the MVP of this repo 🥇. A actually guide for you to make your own Templates. 
+So the [How to do it](https://github.com/pedroseruca/xcode-templates/blob/main/Documentation/HOWTODOIT.md) is the MVP of this repo 🥇. An actually guide for you to make your own Templates. 
 
 ## Documentation:
 
